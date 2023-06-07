@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 1920px;
+    height: 1061px;
+    padding: 0px 490px 0px 490px;
+}
+
+.outerbox{
+
+}
+
+.warpper__left{
+
+}
+
+.warpper__left__body{
+
+}
+
+.warpper__left__footer{
+    width: 250px;
+    height: 259px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+}
+
+.
