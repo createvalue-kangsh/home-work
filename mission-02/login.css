@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular', sans-serif;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    width: 244px;
+    height: 161px;
+    background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+    box-shadow: 5px 5px 0px #AAAAAA;
+    border-radius: 5px;
+}
+
+.header{
+    width: 100%;
+    height: 23px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFF00;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 220px;
+    height: 105px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.id__pw__btn{
+    width: 200px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset{
+    width: 200px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+
+    border: 0;
+}
+
+.id__pw{
+    display: table-cell;
+    flex-direction: column;
+    float: left;
+    width: 70%; /*btn과의 비율*/
+    height:95%; /*fieldest와의 비율 전체 넓이*/
+}
+
+.id{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 5px;
+}
+
+.lable{
+    display: inline-block;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    width: 40%;
+}
+
+.id__pw__box{
+    display: table-cell;
+    flex-direction: row;
+    float: right;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7A7A7A;
+
+    width: 80px;
+    height: 21px;
+}
+
+#email{
+    width: 100%;
+    height: 21px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7A7A7A;
+
+}
+
+
+.pw{
+    height: 50%;
+}
+
+#password{
+    width: 100%;
+    height: 21px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+.btn{
+    display: table-cell;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    float: right;
+    background-color: #ED552F;
+    border: 0px;
+    border-radius: 5px;
+    
+    width: 55px;
+    height: 100%;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer{
+    width: 200px;
+    height: 60px;
+    display:  block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4px 0px 4px 0px;
+    gap: 33px;  
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.sing__in__find{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    
+}
+
+a{
+    text-decoration-line: none;
+    color: #181818;
+}
+
+.sing{
+    width: 5px;
+    height: 10px;
+    font-size: 15px;
+    font-weight: 1000;
+    color: #ED552F;
+    padding-left: 2px;
+}
+
+.sing__In{
+    padding-right: 15px;
+}
